@@ -1,0 +1,98 @@
+html {
+    font-family: monospace;
+}
+.nav {
+    display: inline;
+}
+nav {
+    background-color: rgb(0, 196, 55);
+}
+#nav {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+li {
+    display: inline;
+    text-align: end;
+    margin-bottom: 10px;
+    padding-left: 20rem;
+    font-size: larger;
+}
+
+.one {
+    display: flex;
+}
+.first {
+    background-image: url(./images/jonathan-petersson-ARU18GpF6QQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
+    opacity: 0.9;
+}
+.ball {
+    text-align: center;
+    font-size: 5rem;
+    background-color: rgb(0, 196, 55);
+    margin-top: 20rem;
+}
+@media only screen and (max-width: 412px) {
+    .ball {
+        text-align: center;
+        font-size: 2rem;
+        background-color: rgb(0, 196, 55);
+        margin-top: 20rem;
+    }
+    .first {
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+    }
+    li {
+        padding-left: 0%;
+    }
+    .play {
+        display: block;
+    }
+    .images {
+        padding-left: 0.7rem;
+    }
+}
+
+.two {
+    text-align: center;
+}
+.table {
+    display: flex;
+    justify-content: center;
+}
+table {
+    border: 1px solid black;
+    width: 90%;
+}
+th {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+.three {
+    display: flex;
+    justify-content: center;
+   
+}
+.images {
+    background-color: rgb(0, 196, 55);
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.play {
+    margin: 1rem 1rem 1rem 1rem;
+    display: inline;
+}
